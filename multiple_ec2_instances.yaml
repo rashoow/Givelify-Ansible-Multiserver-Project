@@ -1,0 +1,6 @@
+---
+- name: Provision web-server-1
+  import_playbook: multiple_ec2_instances_1.yaml
+
+- name: Provision web-server-2
+  import_playbook: multiple_ec2_instances_2.yaml

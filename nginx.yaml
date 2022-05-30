@@ -1,0 +1,5 @@
+---
+- hosts: webserver_Group
+  roles: 
+    - web/nginx
+  tags: nginx,webserver 
